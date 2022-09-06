@@ -5,9 +5,16 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "netlify:deploy": "netlify deploy --build --prod --open"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.9"
+    "nuxt": "3.0.0-rc.9",
+    "nuxt-windicss": "^2.5.1"
+  },
+  "dependencies": {
+    "hls.js": "^1.2.1",
+    "microcms-js-sdk": "^2.2.1",
+    "netlify-cli": "^11.5.1"
   }
 }
